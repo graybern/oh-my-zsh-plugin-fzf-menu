@@ -13,7 +13,7 @@
 1. **Top-Level Menu:** Triggered by running `fzf-menu` in the terminal.
 2. **Application Selection:** Choose an application from the menu to navigate through sub-menus until you reach the desired command.
 
-### Example (SSH):
+### Example Usage (SSH):
 
 Run `fzf-menu`, select `SSH`, then choose the SSH host from your `~/.ssh/config`.
 
@@ -63,34 +63,6 @@ fzf-menu/
    ```sh
    source ~/.zshrc
    ```
-
-## Usage
-
-The plugin provides the following commands:
-
-- **SSH Host Selection:**
-
-  ```sh
-  ssh-select
-  ```
-
-  Presents a list of SSH hosts from your configuration for selection.
-
-- **Kubernetes Context Selection:**
-
-  ```sh
-  kctx
-  ```
-
-  Displays available Kubernetes contexts for selection.
-
-- **Kubernetes Namespace Selection:**
-
-  ```sh
-  kns
-  ```
-
-  Lists Kubernetes namespaces with a preview of each namespace's details, allowing interactive selection and switching.
 
 ## Customization
 
